@@ -31,9 +31,14 @@
                         </td>
                     </tr>
 
-                    //aqui vai algum icone para excluir do carrinho
+                  @*<td class="text-center">
+                     <a asp-controller="CarrinhoCompra" asp-action="RemoverItemDoCarrinhoCompra"
+                       asp-route-lancheId="@item.Lanche.LancheId">
+                        <img src="~/images/shopping_cart_icon_172223.png" width="20px" height="20px" />
+                    </a>
+                  </td>*@
                 }
-            </tbody>
+           </tbody>
             <tfoot>
                 <tr>
                     <td colspan="3" class="text-right">Total:</td>
